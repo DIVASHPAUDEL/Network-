@@ -88,7 +88,12 @@ body {
     background-color: #e1ac0c; /* Yellow color for hint button, you can change this */
 }
 
+#details-button {
+    background-color: #3498db; /* Blue color for details button, you can change this */
+}
+
 #submit-button:hover,
-#hint-button:hover {
+#hint-button:hover,
+#details-button:hover {
     background-color: #45a049; /* Darker green color on hover */
 }
