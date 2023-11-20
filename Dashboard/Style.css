@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+#logo img {
+    max-width: 150px;
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+}
+
+#user-info img {
+    max-width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+#leaderboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Adjusted gap between labs */
+}
+
+.lab {
+    background-color: #fff;
+    padding: 10px; /* Adjusted padding for the lab */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Align content in columns */
+}
+
+.lab h2 {
+    text-align: center;
+    color: #333; /* Adjust color as needed */
+    margin-bottom: 10px; /* Add margin below the heading */
+}
+
+.media-upload input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.text-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttons button {
+    background-color: #4caf50; /* Green color, you can change this */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#hint-button {
+    background-color: #e1ac0c; /* Yellow color for hint button, you can change this */
+}
+
+#submit-button:hover,
+#hint-button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
